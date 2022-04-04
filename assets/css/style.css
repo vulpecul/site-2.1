@@ -25,6 +25,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+/*Header*/
 .header{
     background-color: rgb(255, 255, 255);
     height: 80px;
@@ -220,7 +221,7 @@ body{
     margin-top: 9px;
     padding-left: 20px;
 }
-.travel__img{
+.alpinist__img{
     height: 260px;
 }
 .text__gory1{
@@ -230,7 +231,7 @@ body{
     background: #FFFFFF;
     margin-top: -5px;
 }
-.travel__img:hover{
+.alpinist__img:hover{
     box-shadow: 0 0 5px rgb(0 0 0);
     transition: background-color ease 0.5s;
     border-bottom-right-radius: 20px;
@@ -634,6 +635,10 @@ body{
     line-height: 22px;
     color: #45525B;
     text-decoration: none;
+    opacity: 1;
+}
+.start:hover{
+    opacity: 0.6;
 }
 .archive{
     font-family: 'Georgia';
@@ -644,6 +649,10 @@ body{
     color: #45525B;
     text-decoration: none;
     margin-left: 20px;
+    opacity: 1;
+}
+.archive:hover{
+    opacity: 0.6;
 }
 .instructions{
     font-family: 'Georgia';
@@ -653,6 +662,10 @@ body{
     line-height: 22px;
     color: #45525B;
     text-decoration: none;
+    opacity: 1;
+}
+.instructions:hover{
+    opacity: 0.6;
 }
 .style{
     font-family: 'Georgia';
@@ -663,6 +676,10 @@ body{
     color: #45525B;
     text-decoration: none;
     margin-left: 20px;
+    opacity: 1;
+}
+.style:hover{
+    opacity: 0.6;
 }
 .licenses{
     font-family: 'Georgia';
@@ -673,6 +690,10 @@ body{
     color: #45525B;
     text-decoration: none;
     margin-left: 20px;
+    opacity: 1;
+}
+.licenses:hover{
+    opacity: 0.6;
 }
 .changelog{
     font-family: 'Georgia';
@@ -683,6 +704,11 @@ body{
     color: #45525B;
     text-decoration: none;
     margin-left: 20px;
+    opacity: 1;
 }
+.changelog:hover{
+    opacity: 0.6;
+}
+
     
     
