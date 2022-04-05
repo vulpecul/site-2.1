@@ -32,7 +32,7 @@ body{
     width: 1200px;
     margin: 0 auto;
     position: fixed;
-    z-index: 100px;
+    z-index: 100;
     width: 100%;
     top: 0;
 }
@@ -499,7 +499,7 @@ body{
 .btn__poisk:hover{
     box-shadow: 0 0 5px rgb(0 0 0);
     transition: background-color ease 0.5s;
-    border-radius: #353732;
+    border: #353732;
     background: #353721;
     cursor: pointer;
 }
